@@ -1,3 +1,13 @@
-import React from "react"
+import React from "react";
+import { Provider } from "react-redux";
+import Count from '../components/Count';
+import store from '../components/store';
 
-export default () => <div>Hello world!</div>
+
+const Root = () => (
+  <Provider store={store}>
+    <Count />
+  </Provider>
+);
+
+export default () => Root();

@@ -15,7 +15,9 @@
   "dependencies": {
     "gatsby": "^2.3.5",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "@rematch/core": "next",
+    "react-redux": "5.0.6"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
